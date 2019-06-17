@@ -298,6 +298,16 @@ table {
 /* large */
 @media screen and (max-width: 980px) {
 
+    .pagebody {
+        width: 700px;
+    }
+
+    header ,
+    footer , {
+        width: 700px;
+        margin-bottom: 30px;
+    }
+
 }
 
 
@@ -305,11 +315,38 @@ table {
 /* medium */
 @media screen and (max-width: 768px) {
 
+    .pagebody {
+        width: 500px;
+
+    }
+
+    header,
+    footer,{
+        width: 500px;
+        margin-bottom: 30px;
+    }
+
+
 }
 
 
 
 /* small */
 @media screen and (max-width: 640px) {
+
+    .pagebody {
+        width: 400px;
+    }
+
+    header, {
+        position: static;
+        width: 400px;
+        margin-bottom: 30px
+    }
+
+    footer,{
+        width: 400px;
+        margin-bottom: 30px;
+    }
 
 }
